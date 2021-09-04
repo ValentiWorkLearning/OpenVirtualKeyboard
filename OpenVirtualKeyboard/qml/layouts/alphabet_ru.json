@@ -1,0 +1,53 @@
+[
+    [
+        [
+            { "type": "key", "text": "й", "alternatives": "Й" },
+            { "type": "key", "text": "ц", "alternatives": "Ц" },
+            { "type": "key", "text": "у", "alternatives": "У" },
+            { "type": "key", "text": "к", "alternatives": "К" },
+            { "type": "key", "text": "е", "alternatives": "Е" },
+            { "type": "key", "text": "н", "alternatives": "Н" },
+            { "type": "key", "text": "г", "alternatives": "Г" },
+            { "type": "key", "text": "ш", "alternatives": "Ш" },
+            { "type": "key", "text": "щ", "alternatives": "Щ" },
+            { "type": "key", "text": "з", "alternatives": "Щ" },
+            { "type": "key", "text": "х", "alternatives": "Х" },
+            { "type": "key", "text": "ъ", "alternatives": "Ъ" },
+            { "type": "backspace" }
+        ],
+        [
+            { "type": "filler", "stretch": 0.32 },
+            { "type": "key", "text": "ф", "alternatives": "Ф" },
+            { "type": "key", "text": "ы", "alternatives": "Ы" },
+            { "type": "key", "text": "в", "alternatives": "В" },
+            { "type": "key", "text": "а", "alternatives": "А" },
+            { "type": "key", "text": "п", "alternatives": "П" },
+            { "type": "key", "text": "р", "alternatives": "Р" },
+            { "type": "key", "text": "о", "alternatives": "О" },
+            { "type": "key", "text": "л", "alternatives": "Л" },
+            { "type": "key", "text": "д", "alternatives": "Д" },
+            { "type": "key", "text": "ж", "alternatives": "Ж" },
+            { "type": "key", "text": "э", "alternatives": "Э" },
+            { "type": "enter", "stretch": 1.8 }
+        ],
+        [
+            { "type": "shift", "stretch": 1.15 },
+            { "type": "key", "text": "я", "alternatives": "Я" },
+            { "type": "key", "text": "ч", "alternatives": "Ч" },
+            { "type": "key", "text": "с", "alternatives": "С" },
+            { "type": "key", "text": "м", "alternatives": "М" },
+            { "type": "key", "text": "и", "alternatives": "И" },
+            { "type": "key", "text": "т", "alternatives": "Т" },
+            { "type": "key", "text": "ь", "alternatives": "Ь" },
+            { "type": "key", "text": "б", "alternatives": "Б" },
+            { "type": "key", "text": "ю", "alternatives": "Ю" },
+            { "type": "shift", "stretch": 1.3 }
+        ],
+        [
+            { "type": "symbol", "text": "&123" },
+            { "type": "language" },
+            { "type": "space", "stretch": 5 },
+            { "type": "hide" }
+        ]
+    ]
+]

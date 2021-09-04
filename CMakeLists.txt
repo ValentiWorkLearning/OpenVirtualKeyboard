@@ -72,3 +72,10 @@ set_target_properties(OpenVirtualKeyboard
 )
 
 target_link_libraries(OpenVirtualKeyboard PRIVATE Qt5::Core Qt5::Quick Qt5::Gui)
+
+
+add_custom_command(TARGET OpenVirtualKeyboard POST_BUILD
+    COMMAND "${CMAKE_COMMAND}" -E
+        copy_if_different "${CMAKE_CURRENT_LIST_DIR}/OpenVirtualKeyboard/qml/layouts/alphabet_ru.json" "$<TARGET_FILE_DIR:OpenVirtualKeyboard>/layouts/ru_RU/alphabet.json"
+)
+
