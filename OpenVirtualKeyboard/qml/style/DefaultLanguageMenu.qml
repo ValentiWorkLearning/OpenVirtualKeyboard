@@ -17,7 +17,7 @@ T.Popup {
                              contentHeight + topPadding + bottomPadding)
     margins: 0
     verticalPadding: 3
-
+    z: 1;
     enter: Transition {
         NumberAnimation { property: "scale"; from: 0.9; to: 1.0; easing.type: Easing.OutQuint; duration: 220 }
         NumberAnimation { property: "opacity"; from: 0.0; to: 1.0; easing.type: Easing.OutCubic; duration: 150 }
