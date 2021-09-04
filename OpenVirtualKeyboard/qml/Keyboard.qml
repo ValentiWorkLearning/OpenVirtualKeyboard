@@ -22,7 +22,7 @@ Item {
 
     objectName: "keyboard"
     width: parent ? parent.width : 0
-    height: width * 0.34
+    height: width * 0.29
     parent: Overlay.overlay
     z:1;
 
